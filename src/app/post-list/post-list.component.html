@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <app-post-list-item *ngFor="let postListItem of postList"
+                        [postListItemTitle]="postListItem.postListItemTitle"
+                        [postListItemDate]="postListItem.postListItemDate"
+                        [postListItemContent]="postListItem.postListItemContent"
+                        [postListItemLikes]=0></app-post-list-item>
+</ul>
